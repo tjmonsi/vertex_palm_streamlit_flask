@@ -6,7 +6,7 @@ import google.cloud.logging
 
 
 app = Flask(__name__)
-PROJECT_ID = "YOUR_GOOGLE_CLOUD_PROJECT_ID" #Your Google Cloud Project ID
+PROJECT_ID = "s-p-experiment-v02" #Your Google Cloud Project ID
 LOCATION = "us-central1"              #us-central1 for now
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 

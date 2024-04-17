@@ -3,7 +3,7 @@
 from vertexai.preview.language_models import ChatModel, InputOutputTextPair, ChatSession, TextGenerationModel
 import vertexai
 
-PROJECT_ID = "cloud-llm-preview1"
+PROJECT_ID = "s-p-experiment-v02"
 vertexai.init(project=PROJECT_ID, location="us-central1")
 
 

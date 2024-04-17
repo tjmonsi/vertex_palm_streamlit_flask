@@ -4,7 +4,7 @@ from vertexai.preview.language_models import TextGenerationModel
 import vertexai
 import streamlit as st
 
-PROJECT_ID = "YOUR_GOOGLE_CLOUD_PROJECT" #Your Google Cloud Project Id
+PROJECT_ID = "s-p-experiment-v02" #Your Google Cloud Project Id
 LOCATION_NAME="us-central1" #us-central1 for now
 vertexai.init(project=PROJECT_ID, location=LOCATION_NAME)
 
