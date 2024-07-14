@@ -5,4 +5,5 @@ streamlit
 streamlit-chat
 pandas
 flask
-textract
+textract==1.6.3
+numpy==1.26.4
